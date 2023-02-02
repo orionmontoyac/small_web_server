@@ -1,0 +1,30 @@
+body {
+  font-family: 'Righteous', cursive;
+  background: #abe188ff;
+}
+
+div.api_selector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+}
+
+div.api_selector div.api_tile {
+  background: #5d675bff;
+  color: #f78e69ff;
+  width: 40vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  border-radius: 40px;
+}
+
+div.api_selector div.api_tile:hover {
+  cursor: pointer;
+  color: #f1bb87ff;
+}
+/*# sourceMappingURL=style.css.map */

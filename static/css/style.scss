@@ -1,0 +1,29 @@
+$granny-smith-apple: #abe188ff;
+$green-yellow-crayola: #f7ef99ff;
+$middle-yellow-red: #f1bb87ff;
+$middle-red: #f78e69ff;
+$ebony: #5d675bff;
+
+body {
+  font-family: 'Righteous', cursive;
+  background: $granny-smith-apple;
+}
+
+div.api_selector{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+
+  div.api_tile {
+    background: $ebony;
+    color: $middle-red;
+    width: 40vw;
+    align-self: center;
+    text-align: center;
+    border-radius: 40px;
+    &:hover{
+      cursor: pointer;
+      color: $middle-yellow-red;
+    }
+  }
+}
