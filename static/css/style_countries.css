@@ -1,0 +1,21 @@
+body {
+  font-family: 'Righteous', cursive;
+  background: #abe188ff;
+}
+
+body div.country_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body div.country_main div.info_block {
+  width: 30vw;
+  height: 50vh;
+  text-align: center;
+}
+/*# sourceMappingURL=style_countries.css.map */

@@ -1,0 +1,21 @@
+$green-yellow-crayola: #f7ef99ff;
+$middle-yellow-red: #f1bb87ff;
+$middle-red: #f78e69ff;
+$ebony: #5d675bff;
+
+body {
+    font-family: 'Righteous', cursive;
+    background: #abe188ff;
+
+    div.country_main {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        div.info_block {
+            width: 30vw;
+            height: 50vh;
+            text-align: center;
+        }
+    }
+}

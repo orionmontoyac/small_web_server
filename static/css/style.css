@@ -3,7 +3,7 @@ body {
   background: #abe188ff;
 }
 
-div.api_selector {
+body div.api_selector {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,7 +12,7 @@ div.api_selector {
   height: 100vh;
 }
 
-div.api_selector div.api_tile {
+body div.api_selector div.api_tile {
   background: #5d675bff;
   color: #f78e69ff;
   width: 40vw;
@@ -23,8 +23,16 @@ div.api_selector div.api_tile {
   border-radius: 40px;
 }
 
-div.api_selector div.api_tile:hover {
-  cursor: pointer;
+body div.api_selector div.api_tile a {
+  text-decoration: none;
+  color: #f78e69ff;
+}
+
+body div.api_selector div.api_tile a:hover {
   color: #f1bb87ff;
+}
+
+body div.api_selector div.api_tile:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
